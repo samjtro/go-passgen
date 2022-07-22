@@ -1,4 +1,4 @@
-module github.com/samjtro/go-passgen
+module github.com/samjtro/pass
 
 go 1.18
 
