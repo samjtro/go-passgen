@@ -9,6 +9,7 @@ import (
 	"log"
 	"math/rand"
 	"strconv"
+	"time"
 
 	"github.com/spf13/cobra"
 )
@@ -31,6 +32,7 @@ len = Length of the password requested. Must be > 8.
 spec = Whether or not to include special characters in the password requested. Must be true or false. 
 	`,
 	Run: func(cmd *cobra.Command, args []string) {
+		rand.Seed(time.Now().UnixNano())
 		var password string
 		var rng int
 		len, err := strconv.Atoi(args[0])
