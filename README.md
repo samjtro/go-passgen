@@ -1,4 +1,4 @@
-# go-passgen
+# pass
 
 `go install github.com/samjtro/pass@latest`
 
