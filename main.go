@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/samjtro/go-passgen/cmd"
+import "github.com/samjtro/pass/cmd"
 
 func main() {
 	cmd.Execute()
